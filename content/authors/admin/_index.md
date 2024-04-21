@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Third Year CSE Undergrad
+role: Third Year CSE Undergraduate Student
 
 # Organizations/Affiliations to show in About widget
 organizations:

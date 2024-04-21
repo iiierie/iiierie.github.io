@@ -66,7 +66,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Certifications'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -94,9 +94,35 @@ sections:
           organization: Coursera
           organization_url: https://www.edx.org
           title: Crash Course on Python
-          url: 
+          url: ''
+
+        - certificate_url: https://drive.google.com/file/d/1-42QVEZh9yMTSXoaYwh_Mji_PpfMM3gp/view?usp=sharing
+          date_end: ''
+          date_start: '2023-10-01'
+          description: 'NPTEL Online Certification'
+          icon: 
+          organization: NPTEL
+          organization_url: https://swayam.gov.in/nc_details/NPTEL
+          title: The Joy of Computing Using Python
+          url: ''
+
+
+        - certificate_url: 
+          date_end: ''
+          date_start: '2024-04-20'
+          description: 'NPTEL Online Certification'
+          icon: 
+          organization: NPTEL
+          organization_url: https://swayam.gov.in/nc_details/NPTEL
+          title: Cloud Computing
+          url: ''
+
+
     design:
       columns: '2'
+
+      ## posts
+
   - block: collection
     id: posts
     content:
@@ -124,6 +150,11 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+
+
+
+  ## project
+
   - block: portfolio
     id: projects
     content:
@@ -145,109 +176,118 @@ sections:
           tag: Deep Learning
         - name: Other
           tag: Demo
+
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+
+  #     ## gallery
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+
+
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+
+
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
+
+
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
+
+
   - block: tag_cloud
     content:
       title: Popular Topics
     design:
       columns: '2'
+
+
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to contact me via my email or any social links.
+
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: sandesh.cdr@gmail.com
+      phone: 
+      appointment_url: 
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street:  
+        city: Delhi
+        region: IN
+        postcode: ''
+        country: India
+        country_code: IN
+      directions: 
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: ''
+        longitude: ''  
+
       contact_links:
-        - icon: twitter
+        - icon: linkedin
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          name: LinkedIn
+          link: 'https://www.linkedin.com/in/iiierie/'
+        
       # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+
+    #   # Email form provider
+    #   form:
+    #     provider: netlify
+    #     formspree:
+    #       id:
+    #     netlify:
+    #       # Enable CAPTCHA challenge to reduce spam?
+    #       captcha: true
     design:
       columns: '2'
 ---
