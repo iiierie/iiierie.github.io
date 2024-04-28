@@ -250,7 +250,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Feel free to contact me via my email or any social links.
+        Contact me at my socials or my e-mail address.
 
       # Contact (add or remove contact options as necessary)
       email: sandesh.cdr@gmail.com

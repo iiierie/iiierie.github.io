@@ -1,13 +1,16 @@
 ---
 title : Essentialism
+subtitle: The Essentialist lives to pursue “less but better.” 
 date: 2024-04-12
 tags:
     - Books
+    - Non-fiction
+    - Summary
 
 image:
   caption: 'True Essentialist'
   focal_point: ''
-  placement: 2
+  placement: 1
   preview_only: false
 ---
 
@@ -24,9 +27,9 @@ get the right things done as opposed to getting more things done.
 
 ### The Mindset to have:
 
-- i choose to 
--  only a few things really matter
-- i can do anything but not everything
+- I choose to 
+- only a few things really matter
+- I can do anything but not everything
 
 
 Hard meaningful work, getting organized effort does not necessarily correlate to more results. “Less but better does.”
