@@ -85,6 +85,7 @@ skills:
         # percent: 100
         icon: bowl-food
         icon_pack: fas
+        
       - name: Reading
         description: ''
         # percent:
@@ -102,7 +103,7 @@ social:
 
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/sandeshrestha
+    link: https://twitter.com/iiierie
     label: Follow me on Twitter
     display:
       header: true
@@ -131,6 +132,6 @@ highlight_name: true
 ---
 
 Hi. I am Sandesh Shrestha. <br>
-Deeply passionate about data science and its transformative potential and constantly exploring artificial intelligence, deep learning, and computer vision.
+Deeply passionate about Data Science and its transformative potential and constantly exploring Artificial Intelligence, Deep Learning, and Computer Vision.
 
 {style="text-align: justify;"}
