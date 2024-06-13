@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: forest
+  theme_night: dark
   font: minimal
   font_size: L
 
@@ -61,11 +61,13 @@ locale:
 # Site features
 
 features:
+  toc: true
   syntax_highlighter:
-    theme_light: github-light
+    theme_light: igor
     theme_dark: dracula
+    enable: true
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -113,3 +115,5 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+

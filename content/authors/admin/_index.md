@@ -3,7 +3,7 @@
 title: Sandesh Shrestha
 
 # Name pronunciation (optional)
-# name_pronunciation: 
+# name_pronunciation: सन्देश श्रेष्ठ
 
 # Full name (for SEO)
 first_name: Sandesh
@@ -17,20 +17,23 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Third Year CSE Undergraduate Student
+role: Final Year CSE Undergrad
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Delhi Technological University
-    url: https://www.dtu.ac.in/
+  - url: https://www.dtu.ac.in/
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence, Deep Learning 
+  - Deep Learning 
   - Computer Vision
+  - Reading Literature &nbsp; <i class="fa-solid fa-book"></i>
+  - Weightlifting &nbsp; <i class="fa-solid fa-dumbbell"></i>
 
   
 
@@ -41,13 +44,14 @@ education:
       institution: Delhi Technological University
       year: 2025
 
-    - course: Highschool 
+    - course: High School (10+2) (PCM) 
       institution: Capital Secondary School
       year: 2020
 
-    - course: 10th
+    - course: Secondary School  (10th)
       institution: Janajyoti Vidyamandir
       year: 2018
+
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -56,17 +60,17 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 70
+        # percent: 70
         icon: python
         icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 70
+        # percent: 70
         icon: chart-line
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 80
+        # percent: 80
         icon: database
         icon_pack: fas
 
@@ -76,7 +80,7 @@ skills:
     items:
       - name: Weightlifting
         description: ''
-        percent: 60
+        # percent: 60
         icon: dumbbell
         icon_pack: fas
 
@@ -102,7 +106,7 @@ social:
 
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/sandeshrestha
+    link: https://twitter.com/iiierie
     label: Follow me on Twitter
     display:
       header: true

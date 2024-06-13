@@ -12,6 +12,8 @@ image:
   placement: 2
   preview_only: false
 
+toc: true
+
 ---
 
 ### What is it?

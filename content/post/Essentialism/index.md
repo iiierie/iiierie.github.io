@@ -12,6 +12,8 @@ image:
   focal_point: ''
   placement: 1
   preview_only: false
+  
+toc: true
 ---
 
 When you are more selective about what is essential in your life, Essentialism empowers you to regain control over how you make decisions and use your time, energy, and attention.
