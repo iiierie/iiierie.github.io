@@ -1,7 +1,7 @@
 ---
 title: "Everything about Resnet"
 subtitle: "Deep Residual Learning for Image Recognition"
-date: 2024-06-14
+date: 2024-06-13
 tags:
   - Study
   - Resources
@@ -14,8 +14,6 @@ image:
   placement: 1
   preview_only: false
 ---
-
-
 
 ## Resnet
 
