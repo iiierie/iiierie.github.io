@@ -9,13 +9,15 @@ tags:
 toc: true
 
 image:
-  caption: 'Unet Architecture'
+  caption: 'Unet'
   focal_point: ''
   placement: 1
   preview_only: false
 ---
 
 <toc mobile_only=true is_open=true> 
+
+<!-- ![Unet](/images/unet-image.png) -->
 
 ## Paper Walkthrough
 [Link to the Paper](https://arxiv.org/abs/1505.04597) 

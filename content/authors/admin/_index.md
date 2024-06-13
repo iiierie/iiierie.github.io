@@ -28,12 +28,14 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
+
 # Interests to show in About widget
 interests:
-  - Deep Learning 
-  - Computer Vision
-  - Reading Literature &nbsp; <i class="fa-solid fa-book"></i>
-  - Weightlifting &nbsp; <i class="fa-solid fa-dumbbell"></i>
+  - Deep Learning &nbsp; <i class="fa-solid fa-brain"></i>
+  - Computer Vision &nbsp; <i class="fa-solid fa-camera-retro"></i>
+  - Devouring Literature &nbsp; <i class="fa-solid fa-book"></i>
+  - Web Exploration cause who needs sleep? &nbsp; <i class="fa-solid fa-magnifying-glass"></i></i>
+  - Lifting Iron weights daily &nbsp; <i class="fa-solid fa-dumbbell"></i>
 
   
 

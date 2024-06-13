@@ -331,15 +331,20 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
+        - name: AI Stuff
           tag: Deep Learning
+        - name: Web Development
+          tag: Web Development
+        - name: Programming
+          tag: Programming
         - name: Other
           tag: Demo
 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
+      view: masonry 
+      # view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
@@ -395,10 +400,18 @@ sections:
   #     view: compact
 
   - block: tag_cloud
+    id: tags
     content:
-      title: Popular Topics
+      title: "[<i class='fas fa-tags'></i>&nbsp;Tags](tags)"
+      # Choose the taxonomy from `config.toml` to display (e.g. tags, categories)
+      taxonomy: tags
+      # Choose how many tags you would like to display (0 = all tags)
+      count: 20
     design:
       columns: '2'
+      # Minimum and maximum font sizes (1.0 = 100%).
+      font_size_min: 0.7
+      font_size_max: 2.0
 
 
   - block: contact

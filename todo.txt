@@ -1,5 +1,3 @@
-1. edit the progress bar from skills section
-2. include social links 
-3/ update the blog
-
-
+1. change the descriptions
+2. update the resume 
+3. update new projects
