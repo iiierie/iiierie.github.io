@@ -105,16 +105,25 @@ sections:
           description: ''
         - icon: pytorch-icon
           icon_pack: custom
-          name: PyTorch
+          name: '[PyTorch](https://pytorch.org/)'
           description: ''
         - icon: scikitlearn-icon
           icon_pack: custom
-          name: Scikit-Learn
+          name: '[Scikit-Learn](https://scikit-learn.org/stable/)'
           description: ''
         - icon: opencv-icon
           icon_pack: custom
-          name: OpenCV
+          name: '[OpenCV](https://opencv.org/)'
           description: ''
+        - icon: tensorboard-icon
+          icon_pack: custom
+          name: '[Tensorboard](https://www.tensorflow.org/tensorboard)'
+          description: ''
+        - icon: streamlit-icon
+          icon_pack: custom
+          name: '[Streamlit](https://streamlit.io/)'
+          description: ''
+
 
   - block: features
     id: technical-skills
@@ -216,7 +225,7 @@ sections:
         - icon: united-flag
           icon_pack: custom
           name: English
-          description: 'IELTS 7.5'
+          description: 'IELTS 7.5 (2021)'
         - icon: india-flag
           icon_pack: custom
           name: Hindi
