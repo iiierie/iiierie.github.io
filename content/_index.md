@@ -340,14 +340,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: AI Stuff
+        - name: AI Stuffs
           tag: Deep Learning
         - name: Web Development
           tag: Web Development
         - name: Programming
           tag: Programming
         - name: Other
-          tag: Demo
+          tag: Other
 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
